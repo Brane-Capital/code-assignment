@@ -199,10 +199,7 @@ class App extends React.Component {
         <footer className="info">
           <p>Double-click to edit a todo</p>
           <p>
-            Created by <a href="https://github.com/J-F-Liu">Junfeng Liu</a>
-          </p>
-          <p>
-            Part of <a href="http://todomvc.com">TodoMVC</a>
+            An adaptation of <a href="http://todomvc.com">TodoMVC</a>
           </p>
         </footer>
       </Page>
