@@ -4,7 +4,6 @@
 
 > _[React - facebook.github.io/react](http://facebook.github.io/react)_
 
-
 ## Learning React
 
 The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
@@ -13,27 +12,41 @@ Here are some links you may find helpful:
 
 * [Documentation](http://facebook.github.io/react/docs/getting-started.html)
 * [API Reference](http://facebook.github.io/react/docs/reference.html)
-* [Blog](http://facebook.github.io/react/blog/)
-* [React on GitHub](https://github.com/facebook/react)
-* [Support](http://facebook.github.io/react/support.html)
 
-Articles and guides from the community:
+## Dependencies
 
-* [How is Facebook's React JavaScript library](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)
-* [React: Under the hood](http://www.quora.com/Pete-Hunt/Posts/React-Under-the-Hood)
+These dependencies are not included as part of the package install and should be setup beforehand.
 
-Get help from other React users:
-
-* [React on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
-* [Discussion Forum](https://discuss.reactjs.org/)
-
-_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
-
+* [Node.js](https://nodejs.org/en/)
+* [Yarn Package Manager](https://yarnpkg.com/)
 
 ## Running
 
+To install the required pacakges:
 ```
-yarn
+yarn install
+```
+
+To build and start the local server:
+```
 yarn start
-yarn build
 ```
+
+## Task
+
+* Add the ability to create separate lists of todo items.  
+* The lists can be renamed and removed along with their todos.  
+* The lists are to be organized as tabs above the todo component.
+  
+Estimated completion time: 2-3 hours.
+
+### Constraints
+
+* Do not bring in any new frameworks or packages
+  
+Example:  
+![example](./example.gif)
+
+### Submission
+
+Create a merge request featuring your set of changes.
