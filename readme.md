@@ -22,6 +22,11 @@ These dependencies are not included as part of the package install and should be
 
 ## Running
 
+Pull the project into your local environment
+```
+git pull https://github.com/Brane-Capital/code-assignment.git .
+```
+
 To install the required pacakges:
 ```
 yarn install
@@ -48,5 +53,4 @@ Example:
 ![example](./example.gif)
 
 ### Submission
-
-Create a merge request featuring your set of changes.
+When finished, push your changes to your own public repository and send a link to your recruiter.
